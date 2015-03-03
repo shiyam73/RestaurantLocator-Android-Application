@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+  <com.google.android.maps.MapView
+ android:id="@+id/mapview1"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:enabled="true"
+ android:clickable="true"
+ android:apiKey="0d3gzzfIdsGVAgGZyPtfvEbDPE1q7dKMgSlhxjg"
+ 		
+ />
+
+<TextView 	android:id="@+id/tv_lat"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"	
+    	    android:visibility="invisible" />
+
+<TextView 	android:id="@+id/tv_long"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+          android:visibility="invisible" />
+  <Button
+      android:id="@+id/button1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:text="Proceed" />
+
+</RelativeLayout>
